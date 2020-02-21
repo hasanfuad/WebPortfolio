@@ -1,8 +1,15 @@
 body{
     font-family: 'Noto Serif', serif;
+    margin: 0px;
+    top: 0px;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    padding: 8px 15px;
+    
+    
 }
 .name-highlight{
     color: goldenrod;
@@ -12,14 +19,80 @@ h1{
     float: left;
     margin: 3%;
     padding: 2%;
+    top: 0px;
+    float: left;
     
 }
 .half-width img{
-    width: 80%;
+    width: 100%;
+    top: 0px;
+    margin: -5px;
 }
-.design-button{
+.top-banner{
+   
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+    margin: -5px;
+
+}
+section{
+    height: 680px;
+    margin: 0px; 
+}
+h3{
+    margin: 0%;
+}
+.link-button{
+    color: white;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 650;
+}
+.DreamArea{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: -5px;   
+}
+.HeadingTitle{
     width: 40%;
-    margin: 5%;
-    padding: 2%;
-    color: gold;
+    padding: 20px 50px;
+    float: left;
+}
+.paragraph-color{
+    color: grey;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    padding: 25px;
+    height: 45%;
+    margin: 35px;
+    background-color: white;
+}
+.Experience-Area{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
+    
+  background-position: left;
+  
+}
+#Full-stack{
+    border-left: 7px  solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato); 
+    border-image-slice: 1;
+}
+#Baby-stack{
+    border-left: 7px  solid;
+    border-image: linear-gradient(180deg,blue,cyan); 
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    position: relative 10px;
+    margin: 10px;
 }
